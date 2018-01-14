@@ -1,27 +1,41 @@
-# Laravel PHP Framework
+# `laravel-admin`中如何使用`WangEditor`，以及`laravel-admin`多图上传的demo
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+# Screenshots
+![图1](http://wx4.sinaimg.cn/large/658dc60bgy1fngkza0f13j21hc0u07hf.jpg)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+# Installation
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## 1. 下载
+```
+git clone https://github.com/pandoraxm/laravel-admin-wangeditor.git
+```
 
-## Official Documentation
+## 2. composer安装
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+```
+cd laravel_markdown
 
-## Contributing
+composer install
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## 3. 修改env以及数据库配置
 
-## Security Vulnerabilities
+```
+cp .env.example .env
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+vim .env
+```
 
-## License
+## 4. 生成key
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+```
+php artisan key:generate
+
+```
+
+# Usage
+执行`artisan`命令运行
+
+```
+php artisan serve
+```
