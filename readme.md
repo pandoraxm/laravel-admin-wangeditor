@@ -1,7 +1,7 @@
-# `laravel-admin`中如何使用`WangEditor`，以及`laravel-admin`多图上传的demo
+# laravel-admin中如何使用WangEditor，以及laravel-admin多图上传的demo
 
 # Screenshots
-![图1](http://wx4.sinaimg.cn/large/658dc60bgy1fngkza0f13j21hc0u07hf.jpg)
+![图1](https://github.com/pandoraxm/laravel-admin-wangeditor/blob/master/Screenshots.png)
 
 # Installation
 
