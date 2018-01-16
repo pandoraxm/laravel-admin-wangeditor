@@ -27,3 +27,4 @@ Form::forget('editor');
 
 //Form::forget(['map', 'editor']);
 Form::extend('editor', WangEditor::class);
+app('translator')->addNamespace('admin', resource_path('lang/admin'));
