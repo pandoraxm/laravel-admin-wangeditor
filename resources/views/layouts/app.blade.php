@@ -12,6 +12,13 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/lightbox2/2.10.0/css/lightbox.min.css">
+    <style>
+        li {
+            list-style: none;
+        }
+    </style>
 
     <!-- Scripts -->
     <script>
@@ -82,6 +89,8 @@
     </div>
 
     <!-- Scripts -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/lightbox2/2.10.0/js/lightbox.js"></script>
     <script src="/js/app.js"></script>
 </body>
 </html>
