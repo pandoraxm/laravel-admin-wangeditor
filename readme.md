@@ -13,7 +13,7 @@ git clone https://github.com/pandoraxm/laravel-admin-wangeditor.git
 ## 2. composer安装
 
 ```
-cd laravel_markdown
+cd laravel-admin-wangeditor
 
 composer install
 ```
