@@ -33,6 +33,18 @@ php artisan key:generate
 
 ```
 
+## 5. 迁移
+
+```
+php artisan migrate
+```
+
+## 6. laravel-admin表迁移
+
+```
+php artisan admin:install
+```
+
 # Usage
 执行`artisan`命令运行
 
